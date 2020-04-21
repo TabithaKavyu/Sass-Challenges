@@ -1,0 +1,8 @@
+/*Partials in Sass are separate files that hold segments of CSS code. These are imported and used in other Sass files. 
+This is a great way to group similar code into a module to keep it organized.
+Names for partials start with the underscore (_) character, which tells Sass it is a small segment of CSS and not to convert it into a CSS file.*/
+
+/*Write an @import statement to import a partial named _variables.scss into the main.scss file.*/
+
+// The main.scss file
+@import 'variables'
